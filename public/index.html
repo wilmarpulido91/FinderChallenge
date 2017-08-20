@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Finder challenge</title>
+    <meta charset="utf-8">
+    <meta viewport="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Proxima+Nova" rel="stylesheet" type="text/css">
+    <link href="/vendor/awesomplete/awesomplete.css" rel="stylesheet">
+    <link href="/styles/index.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <div class="brand"><img id="brand-image" src="/assets/brand.png" width="60%"></div>
+        <div class="search-form">
+          <form id="form" method="post" action=""></form>
+          <input name="search" type="text" id="search" value="">
+          <input name="btn-search" type="submit" id="btn-search" value="Consultar" onclick="consulting()">
+        </div>
+      </header>
+      <aside class="filters">
+        <h3>Lorem ipsum</h3>
+        <ul>
+          <li> <a href="#">Lorem1</a></li>
+          <li> <a href="#">Lorem2</a></li>
+          <li> <a href="#">Lorem3</a></li>
+        </ul>
+        <h3>Lorem ipsum</h3>
+        <ul>
+          <li> <a href="#">Lorem1</a></li>
+          <li> <a href="#">Lorem2</a></li>
+          <li> <a href="#">Lorem3</a></li>
+        </ul>
+        <h3>Lorem ipsum</h3>
+        <ul>
+          <li> <a href="#">Lorem1</a></li>
+          <li> <a href="#">Lorem2</a></li>
+          <li> <a href="#">Lorem3</a></li>
+        </ul>
+      </aside>
+      <article class="content">
+        <section class="news"></section>
+      </article>
+      <footer></footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/vendor/underscore/underscore-min.js"></script>
+    <script src="/vendor/awesomplete/awesomplete.js"></script>
+    <!--script(src="/vendor/awesomplete/index.js")-->
+    <script src="/scripts/global.js"></script>
+    <script src="/scripts/search-form.js"></script>
+    <script src="/scripts/complete.js"></script>
+    <script src="/scripts/app.js"></script>
+  </body>
+</html>

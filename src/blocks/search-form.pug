@@ -1,2 +1,4 @@
 .search-form
-    h1 search form
+    form#form(method="post",action="")
+    input(name="search",type="text",id="search",value="")
+    input(name="btn-search",type="submit",id="btn-search",value="Consultar", onclick="consulting()")
